@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.controller.LoginController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="109.0" layoutX="115.0" layoutY="63.0" stroke="BLACK" strokeType="INSIDE" width="370.0" />
+      <Label alignment="CENTER" layoutX="115.0" layoutY="63.0" prefHeight="109.0" prefWidth="370.0" text="Grocery Shopping App">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userName" alignment="CENTER" layoutX="217.0" layoutY="300.0" promptText="Username" />
+      <PasswordField fx:id="passWord" alignment="CENTER" layoutX="217.0" layoutY="349.0" promptText="Password" />
+      <Button fx:id="loginButton" layoutX="252.0" layoutY="392.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="43.0" prefWidth="96.0" text="Login" />
+   </children>
+</AnchorPane>
